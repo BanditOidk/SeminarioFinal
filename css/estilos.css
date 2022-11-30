@@ -1,0 +1,418 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    
+    background-repeat: no-repeat;
+
+}
+html{
+    scroll-behavior: smooth;
+    justify-content: center;    
+    margin: 0%;
+    padding: 0%;
+    
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 0.9em;
+}
+header .logo{
+    margin: 0;
+    padding: 10px 15px ;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    width: 300px;
+}
+header .logo{
+    margin: 0;
+    padding: 10px 15px ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);;
+    font-size: 2.1em;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+header .containerh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px ;
+
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 25px;
+    
+}
+header a:hover{
+    color: rgb(0, 120, 185) ;
+}
+
+
+section img{
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+    border-radius: 10%;
+    
+}
+#marcas img{
+    border-radius: 0%;
+    
+}
+#marcas{
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+section .container{
+    text-align: center;
+    padding: 10px 12px;
+}
+.modal h1{
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+.modal img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.modal a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+footer{
+    background-color: #f2793c;
+}
+footer p{
+    font-size: smaller;
+    
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-family: 'Paytone One', sans-serif;
+}
+.container{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.container .card{
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 12px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+    
+}
+
+.container .card:hover{
+    transform: translate(10px);
+    box-shadow: 0 12px 16px rgba(255, 255, 255, 0.2);
+}
+.container .card h4{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 2rem;
+    font-weight: 300;
+    font-size: 14px;
+}
+.container .card a{
+    font-weight: 1000;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container .card h4{
+    font-weight: 1000;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#nuestras  {
+    position:  relative;
+    bottom: -20px;
+    width: 65%;
+    height: auto;
+}
+#vendido {
+    width: 40%;
+    height: auto;
+}
+#peri{
+    width: 60%;
+    height: auto;
+}
+
+
+
+
+
+
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+    
+}
+
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.contenido-principal {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.contenido-principal__imagen {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 550px;
+    
+}
+
+.contenido-principal__contenedor {
+	width: 50%;
+}
+
+.contenido-principal__titulo {
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.contenido-principal__resumen {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: rgb(255, 255, 255);
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+    padding: 50px;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: rgb(255, 255, 255);
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    header .containerh{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+        
+    }
+    header .logo{
+        width: 450px;
+        height: auto;
+    }
+    
+    #copy{
+        text-align: center;
+        position: relative;
+        bottom: auto; 
+    }
+    section{
+     padding: 25px 30px;
+     background-position: left;
+    }
+    #direccion a{
+        text-decoration: none;
+        text-align: left;
+        
+
+    }
+    #politicas li{
+     position: relative;
+     right: auto;
+     margin-left: none;
+    }
+    #nuestras{
+        width: 30%;
+        height: auto;
+
+    }
+    #vendido {
+        width: 15%;
+        height: auto;
+        position: relative;
+        top: 20px;
+    }
+    #peri{
+        width: 15%;
+        height: auto;
+    }
+    .modal h1{
+        text-align: center;
+        font-family: 'Paytone One', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+    }
+    .modal img{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 420px;
+      height: auto;
+    }
+    .modal a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .modal P{
+        text-align: left;
+    }
+    
+  
+    
+
+    body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+    
+}
